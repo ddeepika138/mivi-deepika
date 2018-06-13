@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        >
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#372c24"
+            android:text="CustomerPlan"/>
+        <TextView
+            android:id="@+id/plan"
+            android:textColor="#076e4e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <!--  Password Label -->
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#372c24"
+            android:text="Subscription"/>
+
+        <TextView
+            android:id="@+id/subs"
+            android:textColor="#076e4e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             />
+
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#372c24"
+            android:text="Remaining balance"/>
+
+        <TextView
+            android:id="@+id/balance"
+            android:textColor="#076e4e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             />
+
+        <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#372c24"
+        android:text="Product"/>
+
+        <TextView
+            android:id="@+id/product"
+            android:textColor="#076e4e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#372c24"
+            android:text="Price"/>
+
+        <TextView
+            android:id="@+id/price"
+            android:textColor="#076e4e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
